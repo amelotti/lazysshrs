@@ -1,0 +1,18 @@
+[package]
+name = "lazysshrs"
+version = "0.1.0"
+edition = "2021"
+license = "ISC"
+authors = ["Luiz A. Amelotti <luiz@amelotti.com>"]
+description = "A TUI SSH config manager with fuzzy search and host management"
+repository = "https://github.com/your-username/lazysshrs"
+keywords = ["ssh", "tui", "config", "terminal"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+ratatui = "0.26"
+crossterm = "0.27"
+serde = { version = "1.0", features = ["derive"] }
+home = "0.5"
+toml = "0.8"
+fuzzy-matcher = "0.3"
