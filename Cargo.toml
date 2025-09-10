@@ -5,7 +5,7 @@ edition = "2021"
 license = "ISC"
 authors = ["Luiz A. Amelotti <luiz@amelotti.com>"]
 description = "A TUI SSH config manager with fuzzy search and host management"
-repository = "https://github.com/your-username/lazysshrs"
+repository = "https://github.com/amelotti/lazysshrs"
 keywords = ["ssh", "tui", "config", "terminal"]
 categories = ["command-line-utilities"]
 
